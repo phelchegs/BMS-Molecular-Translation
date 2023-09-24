@@ -12,9 +12,14 @@ Further hypertuning and extensive training using sufficient GPU/TPU sources coul
 * model/:the architecture of transformer and resnet18/transformer.
 * helper-files/:utils that help to train, bachify, summarize training state, load MNIST ds, tokenization, and greedy decode.
 * InChI/:preprocess InChI train and extra ds, including image transformation, extra chemicals images generation using RDKit, tokenization of InChI text, etc.
+* Run/check MNIST_work_notebook.ipynb to apply transformer on MNIST. The trained model is saved as mnistfinalmodel.pt.
+* Run/check InChI_work_notebook.ipynb to apply transformer on InChI train and extra.
+## Notes
+Download the train and extra data from [kaggle](https://www.kaggle.com/competitions/bms-molecular-translation) to the created folder bms-molecular-translation. You have to go into the .py code to change if you want to name the folder for kaggle ds differently.
 
-Run/check MNIST_work_notebook.ipynb to apply transformer on MNIST. The trained model is saved as mnistfinalmodel.pt.
-Run/check InChI_work_notebook.ipynb to apply transformer on InChI train and extra.
+Move all files, including work notebook, model, helper, and InChI under one directory before running work_notebook.ipynb unless sys.path.append is used.
+
+Environment.yml will be updated.
 ## Reference
 @misc{bms-molecular-translation,
     author = {Addison Howard, inversion, Jacob Albrecht, Yvette},

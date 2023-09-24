@@ -38,6 +38,8 @@ Eprint = {arXiv:2010.11929},
 
 For InChI text and image preprocessing:
 
+https://github.com/kozodoi/BMS_Molecular_Translation/tree/main
+
 https://www.kaggle.com/code/yasufuminakama/inchi-preprocess-2/notebook
 
 https://www.kaggle.com/code/tuckerarrants/inchi-allowed-external-data/notebook

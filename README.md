@@ -9,7 +9,12 @@ Then I would like to use CNN as the encoder. Thanks to torchvision, I can use th
 
 Further hypertuning and extensive training using sufficient GPU/TPU sources could lead to >90 BLEU score and I will keep working on that and updating here. Another consideration is to try to change the cnn architecture or connect cnn to LSTM instead of transformer.
 ## Repository Structure
-* model/
+* model/:the architecture of transformer and resnet18/transformer.
+* helper-files/:utils that help to train, bachify, summarize training state, load MNIST ds, tokenization, and greedy decode.
+* InChI/:preprocess InChI train and extra ds, including image transformation, extra chemicals images generation using RDKit, tokenization of InChI text, etc.
+
+Run/check MNIST_work_notebook.ipynb to apply transformer on MNIST. The trained model is saved as mnistfinalmodel.pt.
+Run/check InChI_work_notebook.ipynb to apply transformer on InChI train and extra.
 ## Reference
 @misc{bms-molecular-translation,
     author = {Addison Howard, inversion, Jacob Albrecht, Yvette},

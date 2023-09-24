@@ -28,9 +28,16 @@ Environment.yml will be updated.
     year = {2021},
     url = {https://kaggle.com/competitions/bms-molecular-translation}
 }
+
 @misc{2010.11929,
 Author = {Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby},
 Title = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
 Year = {2020},
 Eprint = {arXiv:2010.11929},
 }
+
+For InChI text and image preprocessing:
+
+https://www.kaggle.com/code/yasufuminakama/inchi-preprocess-2/notebook
+
+https://www.kaggle.com/code/tuckerarrants/inchi-allowed-external-data/notebook

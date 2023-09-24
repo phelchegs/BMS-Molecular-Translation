@@ -9,7 +9,7 @@ Then I would like to use CNN as the encoder. Thanks to torchvision, I can use th
 
 Further hypertuning and extensive training using sufficient GPU/TPU sources could lead to >90 BLEU score and I will keep working on that and updating here. Another consideration is to try to change the cnn architecture or connect cnn to LSTM instead of transformer.
 ## Repository Structure
-*a
+* model/
 ## Reference
 @misc{bms-molecular-translation,
     author = {Addison Howard, inversion, Jacob Albrecht, Yvette},
